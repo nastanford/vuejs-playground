@@ -12,11 +12,15 @@
     
     <div id="app">
       <h1>{{greet('World!!!')}}</h1>
-        <p>Name: {{firstName}} {{lastName}}</p>
-        <p>Job: {{job}}</p>
-        <h1>Data Binding</h1>
-        <a :href="website">Google</a><br />
-         Job: <input type="text" :value="job">
+      <p>Name: {{firstName}} {{lastName}}</p>
+      <p>Job: {{job}}</p>
+      <h1>Data Binding</h1>
+      <p><a :href="website">Google</a></p>
+      <p>Job: <input type="text" :value="job"></p>
+      <!-- Display Text can be an issue if there is HTML -->
+      <p>{{websiteTag}}</p>
+      <!-- Coverts the HTML to be displayed correctly. -->
+      <p v-html="websiteTag"></p>
     </div>
     
  

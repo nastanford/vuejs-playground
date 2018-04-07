@@ -5,7 +5,7 @@ data: {
   firstName: 'Nathan',
   lastName: 'Stanford',
   job: 'Programmer',
-  message: 'world'
+  message: 'World!'
 },
 methods: {
   greet: function() {

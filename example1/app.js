@@ -3,7 +3,8 @@ new Vue({
 el: '#app',
 data: {
   firstName: 'Nathan',
-  lastName: 'Stanford'
+  lastName: 'Stanford',
+  job: 'Programmer'
 }
 
 
